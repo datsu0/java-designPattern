@@ -2,7 +2,7 @@ package framework;
 import java.util.*;
 
 public class Manager{
-    private HashMap showvase = new HashMap<>();
+    private HashMap showcase = new HashMap<>();
     public void register(String name,Product proto){
         showcase.put(name,proto);
     }
